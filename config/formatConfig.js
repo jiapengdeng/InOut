@@ -1,6 +1,7 @@
 
 module.exports={
     parseFormat:'fish',
-    staticFormat:'html,js,css'
-
+    templateEngine:"html",
+    staticFormat:["js","css","png","jpg"],
+    baseDIR:""
 }
