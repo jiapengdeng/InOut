@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-mongodb-native' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.34
+4 verbose node symlink D:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'node-mongodb-native', null ]
+6 verbose cache add name=undefined spec="node-mongodb-native" args=["node-mongodb-native",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'node-mongodb-native',
+7 verbose parsed url   path: 'node-mongodb-native',
+7 verbose parsed url   href: 'node-mongodb-native' }
+8 silly lockFile 19c00958-node-mongodb-native node-mongodb-native
+9 verbose lock node-mongodb-native C:\Users\JiapengDeng\AppData\Roaming\npm-cache\19c00958-node-mongodb-native.lock
+10 silly lockFile 19c00958-node-mongodb-native node-mongodb-native
+11 silly lockFile 19c00958-node-mongodb-native node-mongodb-native
+12 verbose addNamed [ 'node-mongodb-native', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 5600b9da-node-mongodb-native node-mongodb-native@
+15 verbose lock node-mongodb-native@ C:\Users\JiapengDeng\AppData\Roaming\npm-cache\5600b9da-node-mongodb-native.lock
+16 silly addNameRange { name: 'node-mongodb-native', range: '*', hasData: false }
+17 verbose request where is /node-mongodb-native
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 36a9a9d0237270da
+20 verbose url raw /node-mongodb-native
+21 verbose url resolving [ 'https://registry.npmjs.org/', './node-mongodb-native' ]
+22 verbose url resolved https://registry.npmjs.org/node-mongodb-native
+23 verbose request where is https://registry.npmjs.org/node-mongodb-native
+24 info trying registry request attempt 1 at 23:00:47
+25 http GET https://registry.npmjs.org/node-mongodb-native
+26 http 404 https://registry.npmjs.org/node-mongodb-native
+27 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '51',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   date: 'Wed, 13 May 2015 14:58:08 GMT',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1431529088.301830,VS0,VE150' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '51',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Wed, 13 May 2015 14:58:08 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-hkg6825-HKG',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1431529088.301830,VS0,VE150' } ]
+29 silly lockFile 5600b9da-node-mongodb-native node-mongodb-native@
+30 silly lockFile 5600b9da-node-mongodb-native node-mongodb-native@
+31 error 404 404 Not Found: node-mongodb-native
+31 error 404
+31 error 404 'node-mongodb-native' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Maybe try 'npm search mongodb native'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.1.7601
+33 error command "D:\\Program Files\\nodejs\\\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-mongodb-native"
+34 error cwd E:\nodeJs\InOut
+35 error node -v v0.10.34
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]

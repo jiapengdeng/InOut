@@ -1,0 +1,7 @@
+/* 重置样式 */
+body,ul,li,dl,dd,dt{padding: 0;margin: 0;}
+a,a:hover,a:link{text-decoration: none;}
+ul,li,dl,dd,dt{list-style: none;}
+
+
+/* 公共样式 */
